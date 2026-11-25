@@ -29,6 +29,11 @@ public class Fumigacion extends Actividad{
     }
 
     @Override
+    public void ejecutar() {
+
+    }
+
+    @Override
     public String toString() {
         return "Fumigacion{" +
                 super.toString() +

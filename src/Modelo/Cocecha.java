@@ -31,6 +31,14 @@ public class Cocecha extends Actividad{
 
 
     @Override
+    public void ejecutar() {
+
+    }
+    public void calcularRendimiento(){
+
+    }
+
+    @Override
     public String toString() {
         return "Cocecha{" +
                 super.toString() +

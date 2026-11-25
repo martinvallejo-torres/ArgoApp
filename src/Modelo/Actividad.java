@@ -2,7 +2,7 @@ package Modelo;
 
 import java.time.LocalDate;
 
-public class Actividad {
+public abstract class Actividad {
     private int id;
     private LocalDate fecha;
     private String descripcion;
@@ -48,6 +48,7 @@ public class Actividad {
         this.usuarioResponsable = usuarioResponsable;
     }
 
+    public abstract void ejecutar();
 
     @Override
     public String toString() {

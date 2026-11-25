@@ -29,6 +29,11 @@ public class Riego extends Actividad{
     }
 
     @Override
+    public void ejecutar() {
+
+    }
+
+    @Override
     public String toString() {
         return "Riego{" +
                 super.toString() +

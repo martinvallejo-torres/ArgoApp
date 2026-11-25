@@ -29,6 +29,11 @@ public class Fertilizacion extends Actividad{
     }
 
     @Override
+    public void ejecutar() {
+
+    }
+
+    @Override
     public String toString() {
         return "Fertilizacion{" +
                 super.toString() +
